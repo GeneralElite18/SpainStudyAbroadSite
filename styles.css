@@ -1,0 +1,157 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    background-color: #F9F5EB;
+    color: #F9F5EB;
+}
+
+/* Navigation Bar */
+
+.homeButton{
+    text-decoration: none;
+    color: #F9F5EB;
+    font-size: 2rem;
+}
+
+.homeButton:hover{
+    color: #a5a5a5;
+}
+
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.navbar{
+    padding: 1.5rem;
+    background-color: #002B5B;
+}
+
+/* Home Screen */
+
+.titleArea{
+    color: #002B5B;
+    text-align: center;
+    padding: 1%;
+}
+
+.areas{
+    text-align: center;
+    margin: 0;
+}
+
+.place{
+    padding: 2px;
+    color: #a5a5a5;
+}
+
+.place:hover{
+    color: #F9F5EB;
+}
+
+.areaTitle{
+    padding: 1rem;
+    display: inline-block;
+    font-size: 4rem;
+    background-color: #002B5B;
+    position: relative;
+    top: 10%;
+    margin-bottom: -200px;
+    border-radius: 15px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.imageContainer{
+    background-color: black;
+}
+
+.titleImage{
+    width: 100%;
+}
+
+.titleImage:hover{
+    opacity: 70%;
+}
+
+/* San Sebastion */
+
+.activityTitle{
+    color: #002B5B;
+}
+
+.activityArea{
+    width: 100%;
+    padding: 1%;
+}
+
+.activity{
+    padding: 3% 0;
+}
+
+.activityLink{
+    text-decoration: none;
+    color:#002B5B;
+    font-size: 2rem;
+}
+
+.activityLink:hover{
+    text-decoration: none;
+    color:#075dc0;
+    font-size: 2rem;
+}
+
+/* Left Aligned Activity */
+
+.leftActivityImage{
+    width: 50%;
+    float: left;
+    padding: 1%;
+    border-radius: 30px;
+    border: #002B5B solid;
+    background-color:#002B5B;
+}
+
+.leftActivityText{
+    padding: 1%;
+    text-align: right;
+}
+
+.leftActivityDescription{
+    color: #002B5B;
+    font-size: 1.5rem;
+    padding: 2% 0;
+    margin-left: auto;
+    width: 50%;
+}
+
+/* Right Aligned Activity */
+
+.rightActivityImage{
+    width: 50%;
+    float: right;
+    padding: 1%;
+    border-radius: 30px;
+    border: #002B5B solid;
+    background-color:#002B5B;
+}
+
+.rightActivityText{
+    padding: 1%;
+    text-align: left;
+}
+
+.rightActivityDescription{
+    color: #002B5B;
+    font-size: 1.5rem;
+    padding: 2% 0;
+    margin-right: auto;
+    width: 50%;
+}
+
+.footer{
+    margin-top: 5rem;
+    height: 5%;
+}
